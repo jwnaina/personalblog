@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Cocogoose';
+    src: url(../assets/fonts/Cocogoose.ttf) format('truetype');
+}
+
+body {
+    background-color: #E4E2DD;
+    font-family: 'Cocogoose', sans-serif;
+}
+
+nav a {
+    color: #1150AB;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #FFFF;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
