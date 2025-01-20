@@ -3,6 +3,11 @@
     src: url(../assets/fonts/Cocogoose.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Gontserrat';
+    src: url(../assets/fonts/Gontserrat-Regular.ttf);
+}
+
 body {
     background-color: #E4E2DD;
     font-family: 'Cocogoose', sans-serif;
@@ -11,8 +16,12 @@ body {
 nav a {
     color: #1150AB;
     text-decoration: none;
+    line-height: 0;
 }
 
+nav img {
+    width: 24px;
+}
 nav {
     background-color: #FFFF;
     width: 700px;
@@ -20,6 +29,8 @@ nav {
     align-items: center;
     justify-content: space-around;
     border-radius: 50px;
+    padding: 5px;
+    font-size: 18px;
 }
 
 header {
@@ -45,4 +56,32 @@ nav ul {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.search-bar input, select {
+    padding: 5px;
+    border-radius: 15px 0px 0px 15px;
+    border-style: none;
+    background-color: #1150AB;
+    width: 120px;
+    outline: none;
+    font-family: 'Gontserrat';
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar button {
+    border-style: none;
+    background-color: #1150AB;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.search-bar button img {
+    width: 18px;
+    padding: 1px;
 }
