@@ -8,10 +8,22 @@
     src: url(../assets/fonts/Gontserrat-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Corner-Cafe';
+    src: url(../assets/fonts/Corner-Cafe.ttf);
+}
+
 body {
     background-color: #E4E2DD;
     font-family: 'Cocogoose', sans-serif;
+    padding: 0;
+    margin: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 nav a {
     color: #1150AB;
@@ -46,6 +58,9 @@ nav ul {
     gap: 20px;
 }
 
+nav a:hover {
+    color: black;
+}
 .left-nav {
     display: flex;
     align-items: center;
@@ -85,3 +100,36 @@ nav ul {
     width: 18px;
     padding: 1px;
 }
+
+#footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFF;
+}
+
+#footer-title {
+    font-family: 'Corner-Cafe';
+    color: #1150AB;
+    font-size: 20px;
+    width: 200px;
+    display: flex;
+    text-align: center;
+}
+
+#footer-title a:visited, a:link {
+    text-decoration: none;
+    color: #1150AB;
+}
+
+
+#footer-links ul {
+    display: flex;
+    gap: 30px;
+}
+
+
+footer img {
+    width: 40px;
+}
+
