@@ -1,0 +1,15 @@
+#seereviewbutton {
+    font-family: 'Cocogoose';
+    border-style: none;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#seereviewbutton:hover {
+    background-color: #1150AB;
+    color: white;
+    transition: all 0.2s ease;
+}
