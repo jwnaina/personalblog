@@ -50,21 +50,21 @@
    </head>
    <body>
       <?php include('../global/nav.html'); ?>
-      <div class="containermain">
+
+      <div class="container">
+         <div class="image-section">
+            <img src="../assets/images/banner-image.png" alt="Banner Image">
+         </div>
          <div class="login-panel">
             <h1>Afternoon Tea</h1>
             <form action="" method="POST">
-               <p>
                   <label>Username</label>
                   <input type="text" name="username">
-               </p>
-               <p>
+
                   <label>Password</label>
                   <input type="password" name="pass">
-               </p>
-               <p>
+
                   <button class="btn" type="submit">Login</button>
-               </p>
             </form>
          </div>
       </div>
