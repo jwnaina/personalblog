@@ -11,6 +11,7 @@
 </head>
 <body>
     <?php 
+    include('../conection/conection.php');
     include('../global/nav.html'); 
     ?>
     <section id="lastreviewbanner">
