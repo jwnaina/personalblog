@@ -30,7 +30,7 @@
                header("Location: ../article-page/articlepage.php");
    
            } else {
-               echo '<div class="error">Login error. Fill in your correct username and password</div>';
+               echo '<div class="error">Login Error! I think you are not the owner of the website...</div>';
            }
    
        }
@@ -44,15 +44,15 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="../styles/global.css">
+      <link rel="stylesheet" href="../styles/loginpage.css">
       <link rel="icon" href="../assets/images/Logo.png">
       <title>Afternoon Tea</title>
    </head>
    <body>
-      <header>
       <?php include('../global/nav.html'); ?>
-      </header>
       <div class="containermain">
          <div class="login-panel">
+            <h1>Afternoon Tea</h1>
             <form action="" method="POST">
                <p>
                   <label>Username</label>
