@@ -13,8 +13,21 @@
       <?php include('../global/nav.html'); ?>
 
       <div class="login">
+      <?php
+    $images = [
+    "../assets/images/banner-image.png",
+    "../assets/images/banner-image2.png",
+    "../assets/images/banner-image3.png",
+    "../assets/images/banner-image4.png",
+    "../assets/images/banner-image5.png",
+    "../assets/images/banner-image6.png"
+    ];
+
+
+$randomImage = $images[array_rand($images)];
+?>
   
-      <img src="../assets/images/banner-image.png" alt="Login">
+      <img src="<?php echo $randomImage; ?>" alt="Login">
       
       <form action="" method="POST" class="form">
       <?php
@@ -55,6 +68,8 @@
        }
    
    }
+
+   
    ?>
       <h1>Afternoon <br> Tea</h1>
    
@@ -84,8 +99,8 @@
 
                 setTimeout(() => {
                     errorMessage.remove();
-                }, 3000);
-            }, 30000); 
+                }, 300);
+            }, 3000); 
         }
     }); </script>
 
