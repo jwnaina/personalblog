@@ -20,7 +20,8 @@
     "../assets/images/banner-image3.png",
     "../assets/images/banner-image4.png",
     "../assets/images/banner-image5.png",
-    "../assets/images/banner-image6.png"
+    "../assets/images/banner-image6.png",
+    "../assets/images/banner-image7.png"
     ];
 
 

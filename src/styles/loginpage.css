@@ -50,7 +50,7 @@
 .question input:focus + .label-name .content-name,
 .question input:valid + .label-name .content-name {
   transform: translateY(-150%);
-  font-size: 14px;
+  font-size: 16px;
   left: 0px;
   color: #1150ab;
 }
