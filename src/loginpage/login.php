@@ -21,7 +21,8 @@
     "../assets/images/banner-image4.png",
     "../assets/images/banner-image5.png",
     "../assets/images/banner-image6.png",
-    "../assets/images/banner-image7.png"
+    "../assets/images/banner-image7.png",
+    "../assets/images/banner-image8.png"
     ];
 
 
@@ -63,7 +64,7 @@ $randomImage = $images[array_rand($images)];
                header("Location: ../article-page/articlepage.php");
    
            } else {
-               echo '<div class="error" id="error">Wrong credentials.</div>';
+               echo '<div class="error" id="error">Wrong credentials</div>';
            }
    
        }
@@ -105,8 +106,9 @@ $randomImage = $images[array_rand($images)];
         }
     }); </script>
 
-      <footer>
+      
+   </body>
+   <footer>
          <?php include('../global/footer.html'); ?>
       </footer>
-   </body>
 </html>
