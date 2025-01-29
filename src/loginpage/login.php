@@ -60,6 +60,8 @@ $randomImage = $images[array_rand($images)];
                }
    
                $_SESSION['username'] = $username['username'];
+               $_SESSION['pass'] = $username['pass'];
+               
    
                header("Location: ../article-page/articlepage.php");
    

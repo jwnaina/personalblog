@@ -159,3 +159,17 @@ footer img {
     background: #555;
   }
 
+@media (max-width: 768px ) {
+    .left-nav {
+        display: none;
+    }
+
+    #userprofile {
+        display: none;
+    }
+
+    nav {
+        height: 40px;
+    }
+}
+
