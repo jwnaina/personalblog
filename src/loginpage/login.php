@@ -63,7 +63,7 @@ $randomImage = $images[array_rand($images)];
                $_SESSION['pass'] = $username['pass'];
                
    
-               header("Location: ../article-page/articlepage.php");
+               header("Location: ../conection/admpage.php");
    
            } else {
                echo '<div class="error" id="error">Wrong credentials</div>';

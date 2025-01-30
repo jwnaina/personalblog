@@ -1,0 +1,20 @@
+#admheader {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#admheader h1{
+    font-family: 'Corner-Cafe';
+}
+
+.rightheader {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+#exit img {
+    width: 32px;
+}
