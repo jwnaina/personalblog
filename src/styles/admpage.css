@@ -3,10 +3,16 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 #admheader h1{
     font-family: 'Corner-Cafe';
+    margin: 0;
+}
+
+#admheader a:visited, a:link{
+    color: #1150AB;
 }
 
 .rightheader {
@@ -17,4 +23,50 @@
 
 #exit img {
     width: 32px;
+}
+
+.newarticle {
+    display: flex;
+        align-items: center;
+        gap: 15px;
+
+}
+#newarticle {
+    border: none;
+    padding: 8px 35px;
+    background-color: #1150AB;
+    color: white;
+    font-family: 'Gontserrat';
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#articlesearch {
+        padding: 8px;
+        border: none;
+        border-radius: 20px 0 0 20px;
+        background-color: #D9D9D9;
+}
+
+#searcharticle {
+        border: none;
+        background-color: #D9D9D9;
+        border-radius: 0 15px 15px 0;
+        padding: 0 10px;
+        cursor: pointer;
+}
+
+.search {
+    display: flex;
+}
+
+#exit {
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+#exit img {
+    width: 34px;
 }
