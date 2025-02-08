@@ -42,11 +42,15 @@
     cursor: pointer;
 }
 
-#articlesearch {
+.articlesearch {
         padding: 8px;
         border: none;
         border-radius: 20px 0 0 20px;
         background-color: #D9D9D9;
+}
+
+.articlesearch select {
+    border-style: none;
 }
 
 #searcharticle {
