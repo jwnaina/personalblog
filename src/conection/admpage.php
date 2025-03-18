@@ -1,5 +1,5 @@
-<?php include('protect.php'); ?>
-<?php include('conection.php'); ?>
+<?php include('../conection/protect.php'); ?>
+<?php include('../conection/conection.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
